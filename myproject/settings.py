@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'gdstorage',
     'rest_framework',
     'myapp', 
 ]
@@ -124,3 +125,9 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+
+GOOGLE_DRIVE_STORAGE_JSON_KEY_FILE = 'service_key.json'  # Path to your service account key file in the root folder
+GOOGLE_DRIVE_STORAGE_MEDIA_ROOT = '/uploads'  # Base Google Drive path for file uploads
+
