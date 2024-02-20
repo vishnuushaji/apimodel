@@ -128,6 +128,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 
-GOOGLE_DRIVE_STORAGE_JSON_KEY_FILE = 'service_key.json'  # Path to your service account key file in the root folder
-GOOGLE_DRIVE_STORAGE_MEDIA_ROOT = '/uploads'  # Base Google Drive path for file uploads
+GOOGLE_DRIVE_STORAGE_JSON_KEY_FILE = 'service_key.json'  
+GOOGLE_DRIVE_STORAGE_MEDIA_ROOT = '/testfolder'
 
